@@ -36,14 +36,9 @@ h1 strong
     height: 70px;
     align-items: center;
     justify-content: space-between;
-
+    box-shadow: 6px 7px 24px -8px rgba(0,0,0,1);
+    position: relative;
 }
-
-.menu
-{
-    height: inherit;
-}
-
 
 .header ul 
 {
@@ -57,6 +52,13 @@ h1 strong
     height: inherit;
     /* display: flex;
     align-items: center; */
+}
+
+.header ul li:last-child a
+{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    border-radius: 3px;
 }
 
 .header a 
@@ -98,6 +100,7 @@ figure
 .hero-image
 {
     object-fit: cover;
+    clip-path: polygon(16% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
 .portfolio
@@ -118,7 +121,7 @@ h2
 
 .project
 {
-    border: 1px solid gray;
+    box-shadow: 0px 8px 20px -8px rgba(0,0,0,0.2);
     border-radius: 10px;
     padding: 20px;
     /* margin: 10px; */
@@ -142,6 +145,21 @@ h2
 {
     margin: 10px 0;
 }
+
+.project-course,
+small
+{
+    color: gray;
+    font-weight: initial;
+}
+
+.project strong
+{
+    color: initial;
+    font-weight: initial;
+}
+
+
 
 .project strong
 {
@@ -182,6 +200,7 @@ h2
     overflow: hidden;
     flex-shrink: 0;
     background-color: #f4fbff;
+    box-shadow: 6px 7px 24px -8px rgba(0,0,0,.2);
 }
 
 .event img
@@ -193,7 +212,7 @@ h2
 
 .event-detail
 {
-    margin:20px 40px;
+    margin:20px 60px;
     margin-top: -40px;
     background-color: #fff;
     position: relative;
@@ -257,9 +276,8 @@ h2
 
 .form-email input
 {
-    border-color: gray;
     border-radius: 5px;
-    border-style: solid;
+    border-style: none;
     padding: 10px 20px 10px 25px;
     background-image: url('../img/envelope.svg');
     background-size: 15px 15px;
@@ -277,6 +295,7 @@ h2
     border-radius: 5px;
     width: 100px;
     margin-top: 10px;
+    border-style: solid;
 }
 
 .form-email h3
