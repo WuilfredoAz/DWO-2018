@@ -1,0 +1,102 @@
+@media(max-width: 623px){
+    /*----  Header  -----------------------------------------------------------*/
+    nav{
+        display: none;
+    }
+    /*----  Hero  -----------------------------------------------------------*/
+    .hero {
+        height: 100%;
+        flex-direction: column;
+        padding: 3%;
+    }
+    
+    .hero h1 {
+        margin: 2% auto;
+        font-size: 30px;
+        width: 98%;
+      }
+      
+    .hero figure
+      {
+        width: 100%;
+      }
+
+    .hero-img{
+        width: 100%;
+        clip-path: polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+      }
+    /*----  Portfolio  -----------------------------------------------------------*/
+    article{
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .project-details {
+        width: 100%;
+      }
+
+    .project-description {
+        font-size: 18px;
+      }
+      
+    .project-imageContainer {
+        width: 100%;
+      }
+
+    .project-img{
+        width: 100%;
+      }
+    
+    /*----  Experience  -----------------------------------------------------------*/
+    .jobs{
+        width:98%;
+      }
+
+    /*----  Skills  -----------------------------------------------------------*/
+    .leo-skills-left,
+    .leo-skills-right
+    {
+        width: 20%;
+    }
+
+    .leo-skills-left div span,
+    .leo-skills-right div span{
+        margin: 1%;
+        
+    }
+
+    .leo-skills figure
+    {
+        width: 55%;
+    }
+
+    .row
+    {
+        flex-direction: column;
+    }
+
+    .leo-img
+    {
+        height: 100%;
+        width: 100%;
+    }
+    
+    /*----  Contact  -----------------------------------------------------------*/
+    
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact-title{
+        border-left-width: 24px;
+    }
+
+    .contact input{
+        margin-top: 4%;
+    }
+
+    .contact-links {
+        margin-bottom: 4% ;
+      }
+      
+}
