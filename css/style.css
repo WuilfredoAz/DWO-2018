@@ -2,9 +2,9 @@
 /*----  Roots  -----------------------------------------------------------*/
 :root {
     /*----  Colors  ----*/
-      
-      --lightGrey : #bebdbd;
-      --Grey : #1b2127; 
+      --White : #fff;
+      --lightGrey : #fafafa;
+      --Grey : #1d252c; 
       --lightBlue : #026fff; 
   }
   
@@ -15,22 +15,22 @@ body
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: #fafafa;
+    background-color: var(--lightGrey);
 }
 
 /*----  Header  -----------------------------------------------------------*/
 
 .header
 {
-    background-color: #1d252c;
-    color: #fff;
+    background-color: var(--Grey);
+    color: var(--White);
     height: 70px;
     display:flex;
     justify-content: space-between;
     box-shadow: 0px 10px 18px -8px rgba(0,0,0,1);
     position: relative;
     z-index: 10;
-    padding: 0 40px; 
+    padding: 0 4%; 
 }
 
 .header figure
@@ -66,7 +66,7 @@ body
 
 .menu-link /*a*/
 {
-    color: #fff;
+    color: var(--White);
     text-decoration: none;
     height: inherit;
     display: flex;
@@ -91,7 +91,7 @@ body
 
 .hero
 {
-    background-color: #1d252c;
+    background-color: var(--Grey);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,7 +102,7 @@ body
 {
     font-family: 'Fjalla One', sans-serif;
     padding-left: 40px;
-    color: #fff;
+    color: var(--White);
     margin: 0;
     font-size: 50px;
     line-height: 1.3;
@@ -111,7 +111,7 @@ body
 
 .hero h1 strong
 {
-    color: #026fff;
+    color: var(--lightBlue);
 }
 
 .hero figure
@@ -138,7 +138,7 @@ body
 {
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: var(--White);
     margin: 0;
 }
 
@@ -176,7 +176,7 @@ body
 .portafolio
 {
     margin-top: -55px;
-    border-left-color: #026fff;
+    border-left-color: var(--lightBlue);
     border-left-style: solid;
     border-left-width: 20px;
 }
@@ -184,7 +184,7 @@ body
 .section-title
 {
     text-transform: uppercase;
-    color: #026fff;
+    color: var(--lightBlue);;
     font-size: 26px;
     margin: 0;
     padding: 40px 0;
@@ -196,7 +196,7 @@ body
 {
     height: 40px;
     width: 60px;
-    background-color: #026fff;
+    background-color: var(--lightBlue);;
     border-radius: 20px;
     margin-left: -30px;
     margin-right: 40px;
@@ -222,7 +222,7 @@ body
 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 32px;
-    color: #1d252c;
+    color: var(--Grey);
     margin:0;
 }
 
@@ -268,7 +268,7 @@ body
 
 .experience, .leo-skills
 {
-    border-left-color: #026fff;
+    border-left-color: var(--lightBlue);;
     border-left-style: solid;
     border-left-width: 20px;
 }
@@ -283,7 +283,7 @@ body
 
 .jobs
 {
-    background-color:#f4fbff;
+    background-color:var(--lightGrey);
     overflow: hidden;
     border-radius: 5px;
     width: 500px;
@@ -314,7 +314,7 @@ body
 
 .jobs-details
 {
-    background-color: #fff;
+    background-color: var(--White);
     text-align: center;
     padding: 20px;
     width: 350px;
@@ -325,7 +325,7 @@ body
 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 24px;
-    color: #1d252c;
+    color: var(--Grey);
     margin: 0;
     padding: 30px;
 }
@@ -343,7 +343,7 @@ body
 {
     margin: 0;
     padding: 10px 60px;
-    color: #026fff;
+    color: var(--lightBlue);
     border: 1px solid;
     border-radius: 5px;
     font-size: 18px;
@@ -374,8 +374,8 @@ body
     width: auto;
     padding: 5px 20px;
     margin: 0 40px;
-    color: #fff;
-    background-color: #026fff;
+    color: var(--White);
+    background-color: var(--lightBlue);;
     border-radius: 20px;
     font-size: 16px;
 
@@ -417,7 +417,7 @@ body
 
 .contact
 {
-    background-color: #026fff;
+    background-color: var(--lightBlue);;
     padding-right: 40px;
     display: flex;
     justify-content: space-between;
@@ -432,7 +432,7 @@ body
 
 .contact-title
 {
-    border-left-color: #fff;
+    border-left-color: var(--White);
     border-left-style: solid;
     border-left-width: 20px;
     display: flex;
@@ -443,7 +443,7 @@ body
 .contact .section-title
 {
     text-transform: uppercase;
-    color: #fff;
+    color: var(--White);
     font-size: 26px;
     margin: 0;
     padding: 40px 0 0;
@@ -452,7 +452,7 @@ body
 
 .contact .punto
 {
-    background-color: #fff;
+    background-color: var(--White);
     display: inline-block;
 }
 
@@ -481,7 +481,7 @@ body
 
 .contact input[type=submit]
 {
-    color: #fff;
+    color: var(--White);
     border: 1px solid;
     background-color: transparent;
     padding: 10px 30px;
@@ -538,8 +538,8 @@ body
 
 .footer
 {
-    background-color: #1d252c;
-    color: #fff;
+    background-color: var(--Grey);
+    color: var(--White);
     font-size: 17px;
     padding: 20px 40px;
     display: flex;
@@ -558,7 +558,7 @@ body
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: var(--White);
     display: inline-block;
     margin: 0 10px 0 15px;
 }
@@ -572,5 +572,5 @@ body
 
 .footer a
 {
-    color: #fff;
+    color: var(--White);
 }
