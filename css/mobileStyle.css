@@ -121,5 +121,11 @@
     .contact-links {
         margin-bottom: 4% ;
       }
-      
+    
+    /*----  Footer  -----------------------------------------------------------*/
+
+    footer{
+      flex-direction: row;
+      align-items: flex-end;
+    }
 }
