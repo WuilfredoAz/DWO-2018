@@ -419,7 +419,7 @@ body
 
 .contact-left
 {
-    width: 500px;
+    width: 50%;
     padding: 0 0 40px 0;
 }
 
@@ -486,7 +486,7 @@ body
 
 .contact-right
 {
-    width: 400px;
+    width: 48%;
     display: flex;
     justify-content: space-between;
 }

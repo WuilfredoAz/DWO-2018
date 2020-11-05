@@ -30,6 +30,10 @@
         flex-direction: column;
         width: 90%;
     }
+
+    article .project{
+        width: 100%;
+    }
     
     .project-details {
         width: 100%;
@@ -51,6 +55,14 @@
     .jobs{
         width:98%;
       }
+    .jobs img{
+      width: 100%;
+    }
+    
+    .jobs-details{
+      width: 80%;
+      margin: -75px 20px 30px;
+    }
 
     /*----  Skills  -----------------------------------------------------------*/
     .leo-skills-left,
@@ -62,6 +74,9 @@
     .leo-skills-left div span,
     .leo-skills-right div span{
         margin: 1%;
+        font-size: 10px;
+        padding: 5px 10px;
+        text-align: center;
         
     }
 
@@ -87,8 +102,16 @@
         flex-direction: column;
     }
 
+    .contact-left{
+        width: 100%;
+    }
+
+    .contact-right{
+      width: 100%;
+    }
+
     .contact-title{
-        border-left-width: 24px;
+        border-left-width: 20px;
     }
 
     .contact input{
