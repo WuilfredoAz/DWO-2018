@@ -7,7 +7,20 @@
       --Grey : #1d252c; 
       --lightBlue : #026fff; 
       --GreyW:#6d6d6d;
+      --Hero:#1d252c;
+      --Contact:#026fff;
+
+      /*
+      --White : #fff;
+      --lightGrey : #fafafa;
+      --Hero: linear-gradient(0deg, rgba(19,158,141,1) 0%, rgba(55,238,125,1) 100%);
+      --Contact:linear-gradient(0deg, rgba(55,238,125,1) 0%, rgba(19,158,141,1) 100%);
+      --Grey : #139e8d; 
+      --lightBlue : #117a65; 
+      --GreyW:#6d6d6d;*/
   }
+
+  
   
   /*----  General  -----------------------------------------------------------*/
 
@@ -97,7 +110,8 @@ body
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    padding: 0 4%; 
+    padding: 0 4%;
+    background: var(--Hero); 
 
 }
 
@@ -201,7 +215,7 @@ body
     background-color: var(--lightBlue);;
     border-radius: 20px;
     margin-left: -30px;
-    margin-right: 40px;
+    
 }
 
 .project
@@ -415,6 +429,7 @@ body
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: var(--Contact);
 }
 
 .contact-left
@@ -486,7 +501,7 @@ body
 
 .contact-right
 {
-    width: 48%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
 }

@@ -107,19 +107,29 @@
     }
 
     .contact-right{
-      width: 100%;
+      width: 70%;
+      padding: 0% 15%;
     }
 
     .contact-title{
         border-left-width: 20px;
     }
 
+    .contact form
+    {    
+      margin-left: 15%;
+    }
+
     .contact input{
         margin-top: 4%;
+        margin-right: 10%;
     }
 
     .contact-links {
-        margin-bottom: 4% ;
+      width: 30px;
+      height: 30px;
+      background-size: 30px 30px;
+      margin-bottom: 4% ;
       }
     
     /*----  Footer  -----------------------------------------------------------*/
